@@ -17,3 +17,4 @@ export async function commentListener(event) {
   form.remove();
   location.reload();
 }
+console.log('Intentional Syntax Error');
