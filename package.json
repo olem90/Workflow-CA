@@ -8,7 +8,7 @@
     "test-unit": "jest",
     "build": "sass src/scss:dist/css",
     "start": "sass --watch src/scss:dist/css & live-server",
-    "format": "prettier -w src/**/*.{js, scss}",
+    "format": "prettier -w src/**/*.js, scss",
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
     "prepare": "husky install"
